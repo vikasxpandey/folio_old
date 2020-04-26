@@ -12,6 +12,25 @@
     outline: none !important;
 }
 
+/* HELPERS */
+
+.heading-text {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.subheading-text {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.full-height {
+    min-height: 100vh;
+}
+
+/* HELPERS END */
+
 body {
     background: #000;
 }
@@ -62,9 +81,43 @@ main .hero-text span:nth-child(2){
     color: rgba(255, 255, 255, 0.5);
 }
 
+.project-div {
+    min-height: 500px;
+    color: #fff;
+    background: #2e2e2e;
+    background: linear-gradient(0deg, #2e2e2e, transparent);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .service-inner {
+    background: #000;
+    min-height: 200px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .service-inner:hover {
+    border-bottom: 5px solid red;
+}
+
+
 /* MEDIA QUERIES */
 
 @media(max-width:768px) {
+
+    .heading-text { 
+        font-size: 3rem;
+    }
+
     main .hero-text {
         font-size: 4rem;
     }

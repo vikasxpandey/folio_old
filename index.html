@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vikas Pandey</title>
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/aos.min.css">
+    <link rel="stylesheet" href="./assets/css/hover.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
@@ -22,23 +22,18 @@
         
         <div class="collapse navbar-collapse" id="main-nav-dropdown">
             <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="service-nav-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="service-nav-dropdown">
-                <a class="dropdown-item" href="#">Get a Website</a>
-                <a class="dropdown-item" href="#">Get an Application</a>
-                <a class="dropdown-item" href="#">Improve SEO</a>
-                </div>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -47,18 +42,137 @@
 
 <main>
     <div class="video-container">
-        <video src="video.mp4" autoplay muted></video>
+        <video src="./assets/misc/video.mp4" autoplay muted></video>
     </div>
-    <div class="container">
+    <div data-rellax-speed="-4" class="rellax container">
         <span class="hero-text font-weight-bold"><span data-aos="fade-up" data-aos-duration="3000">LET'S</span><span data-aos="fade-down">Create</span></span>
     </div>
 </main>
 
+<section class="projects full-height pt-5">
+    <div data-aos="fade-right" class="container">
+        <span class="heading-text">Projects</span>
+    </div>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <div data-aos="fade-up" id="project-carousel" class="carousel slide" data-ride="carousel">
+
+        <ul class="carousel-indicators">
+          <li data-target="#project-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#project-carousel" data-slide-to="1"></li>
+          <li data-target="#project-carousel" data-slide-to="2"></li>
+        </ul>
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="project-div container p-5">
+                <h2 class="font-weight-bold">Canvastones.com</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum, dicta tenetur asperiores saepe quo cum voluptas officia dolor sint?
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="project-div container p-5">
+                <h2 class="font-weight-bold">Revolotech.com</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum, dicta tenetur asperiores saepe quo cum voluptas officia dolor sint?
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="project-div container p-5">
+                <h2 class="font-weight-bold">Github</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum, dicta tenetur asperiores saepe quo cum voluptas officia dolor sint?
+            </div>
+          </div>
+        </div>
+        
+        <a class="carousel-control-prev" href="#project-carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#project-carousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+</section>
+
+<section class="services full-height pt-5">
+    <div data-aos="fade-right" class="container">
+        <span class="heading-text">Services</span>
+    </div>
+
+    <div class="container">
+        <div class="container service-head mt-5">
+            <h2 class="subheading-text">On the Web</h2>
+            <div data-aos="fade-up" class="row service-body">
+                <div class="col-md-3 col-6">
+                    <div class="service-inner card hvr-grow">
+                        Single Page Website
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="service-inner card hvr-grow">
+                        Portfolio            
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="service-inner card hvr-grow">
+                        E Commerce                
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="service-inner card hvr-grow">
+                        Wordpress                
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container service-head mt-5">
+            <h2 class="subheading-text">In the Phone</h2>
+            <div data-aos="fade-up" class="row service-body">
+                <div class="col-md-3 col-6">
+                    <div class="service-inner card hvr-grow">
+                        Android App    
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="service-inner card hvr-grow">
+                        iOS App                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="service-inner card hvr-grow">
+                        Lightweight Web App                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container service-head mt-5">
+            <h2 class="subheading-text">For the Brand</h2>
+            <div data-aos="fade-up" class="row service-body">
+                <div class="col-md-3 col-6">
+                    <div class="service-inner card hvr-grow">
+                        Search Engine Optimization    
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="service-inner card hvr-grow">
+                        Logo Design                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="service-inner card hvr-grow">
+                        Data Science                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/aos.min.js"></script>
+<script src="./assets/js/rellax.min.js"></script>
 <script src="./assets/js/main.js"></script>
 </body>
 </html>
