@@ -21,5 +21,9 @@ $(function() {
 		window.requestAnimationFrame(updateLax)
 	}
 
-	window.requestAnimationFrame(updateLax)
+    window.requestAnimationFrame(updateLax)
+    
+    // VIDEO
+
+    $('#bg-video').get(0).play();
 });

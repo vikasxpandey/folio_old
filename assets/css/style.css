@@ -195,14 +195,14 @@ main .hero-text span:nth-child(2){
 
 .about .social a {
     color: #fff;
-    margin: 1rem;
+    margin: 0.5rem;
     display: inline-block;
 }
 
 
 footer {
-    background: #1e1e1e;
-    background: linear-gradient(180deg, #1e1e1e, transparent);
+    background: #000;
+    background: linear-gradient(180deg, #000, transparent);
 }
 
 
