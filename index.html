@@ -8,14 +8,27 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/aos.min.css">
     <link rel="stylesheet" href="./assets/css/hover.min.css">
+    <link rel="stylesheet" href="./assets/css/fa/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5ea6d78f69e9320caac7b74b/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
 
 </head>
 <body>
 
 <section class="main-navbar">
     <nav class="navbar fixed-top navbar-expand-md navbar-dark">
-        <a class="navbar-brand" href="#">Vikas Pandey</a>
+        <a class="navbar-brand font-weight-bold" href="#">Vikas <span class="red-color">Pandey</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav-dropdown" aria-controls="main-nav-dropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,14 +55,14 @@
 
 <main>
     <div class="video-container">
-        <video src="./assets/misc/video.mp4" autoplay muted></video>
+        <video src="./assets/misc/video.mp4" autoplay muted loop></video>
     </div>
-    <div data-rellax-speed="-4" class="rellax container">
+    <div data-lax-preset="linger fadeOut" class="lax container">
         <span class="hero-text font-weight-bold"><span data-aos="fade-up" data-aos-duration="3000">LET'S</span><span data-aos="fade-down">Create</span></span>
     </div>
 </main>
 
-<section class="projects full-height pt-5">
+<section class="projects pt-5">
     <div data-aos="fade-right" class="container">
         <span class="heading-text">Projects</span>
     </div>
@@ -60,25 +73,40 @@
           <li data-target="#project-carousel" data-slide-to="0" class="active"></li>
           <li data-target="#project-carousel" data-slide-to="1"></li>
           <li data-target="#project-carousel" data-slide-to="2"></li>
+          <li data-target="#project-carousel" data-slide-to="3"></li>
         </ul>
         
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item text-center active">
             <div class="project-div container p-5">
-                <h2 class="font-weight-bold">Canvastones.com</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum, dicta tenetur asperiores saepe quo cum voluptas officia dolor sint?
+                <h2 class="font-weight-bold">Canvastones<span class="red-color">.com</span></h2>
+                <p>An E-commerce website based on php-Opencart framework.</p>
+                <p>This project was made as a Freelance project in three months from Prototyping to Deployment and Maintainance. It uses Opencart as the base framework which is written in PHP and follows the MVC architecture. Additionally MySQL for database and HTML - CSS - JavaScript Combination for its Front End.</p>
+                <a href="https://www.canvastones.com" target="_blank" class="btn btn-lg disp-block mt-3 btn-default-black">Check Out</a>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item text-center">
             <div class="project-div container p-5">
-                <h2 class="font-weight-bold">Revolotech.com</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum, dicta tenetur asperiores saepe quo cum voluptas officia dolor sint?
+                <h2 class="font-weight-bold">Revolotech<span class="red-color">.com</span></h2>
+                <p>A multi-page dynamic website built from scratch.</p>
+                <p>This project was made while I was working as an Intern at Revolo Infotech. It uses PHP as the Server side language along with a MySQL database. While the Front End uses the HTML - CSS - JavaScript Combination.</p>
+                <a href="https://www.revolotech.com" target="_blank" class="btn btn-lg disp-block mt-3 btn-default-black">Check Out</a>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item text-center">
             <div class="project-div container p-5">
-                <h2 class="font-weight-bold">Github</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illum, dicta tenetur asperiores saepe quo cum voluptas officia dolor sint?
+                <h2 class="font-weight-bold">Ignite.intuitioneers<span class="red-color">.com</span></h2>
+                <p>A social network and discussion forum for Developers.</p>
+                <p>This is a project I made to brush up my ReactJS and NodeJS skills. It uses ReactJS as client side Front End framework while NodeJS as Server side Back End language. Moreover, it uses MongoDB as its Database.</p>
+                <a href="https://www.github.com/vikasxpandey/ignite" target="_blank" class="btn btn-lg disp-block mt-3 btn-default-black">Check Out</a>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <div class="project-div container p-5">
+                <h2 class="font-weight-bold">More on Github<span class="red-color">.com</span></h2>
+                <p>Find more projects on GitHub.</p>
+                <p>Head over to my GitHub to explore more projects based on Data Science and Machine Learning.</p>
+                <a href="https://www.github.com/vikasxpandey" target="_blank" class="btn btn-lg disp-block mt-3 btn-default-black">See more</a>
             </div>
           </div>
         </div>
@@ -92,73 +120,78 @@
       </div>
 </section>
 
-<section class="services full-height pt-5">
+<section class="services full-height mt-5 pt-5">
     <div data-aos="fade-right" class="container">
         <span class="heading-text">Services</span>
     </div>
 
     <div class="container">
         <div class="container service-head mt-5">
-            <h2 class="subheading-text">On the Web</h2>
+            <h2 class="subheading-text">On the <span class="red-color">W</span>eb</h2>
             <div data-aos="fade-up" class="row service-body">
-                <div class="col-md-3 col-6">
-                    <div class="service-inner card hvr-grow">
-                        Single Page Website
+                <div class="col-md-3">
+                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/single-page.jpg');">
+                        <h5 class="font-weight-bold">Single Page Website</h5>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
-                    <div class="service-inner card hvr-grow">
-                        Portfolio            
+                <div class="col-md-3">
+                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/portfolio.jpg');"> 
+                        <h5 class="font-weight-bold">Portfolio</h5>            
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
-                    <div class="service-inner card hvr-grow">
-                        E Commerce                
+                <div class="col-md-3">
+                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/ecommerce.jpg');">
+                        <h5 class="font-weight-bold">E Commerce</h5>           
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
-                    <div class="service-inner card hvr-grow">
-                        Wordpress                
+                <div class="col-md-3">
+                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/wordpress.jpg');">
+                        <h5 class="font-weight-bold">Wordpress</h5>                
                     </div>
                 </div>
             </div>
         </div>
         <div class="container service-head mt-5">
-            <h2 class="subheading-text">In the Phone</h2>
+            <h2 class="subheading-text">In the <span class="red-color">P</span>hone</h2>
             <div data-aos="fade-up" class="row service-body">
-                <div class="col-md-3 col-6">
-                    <div class="service-inner card hvr-grow">
-                        Android App    
+                <div class="col-md-3">
+                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/android.jpg');">
+                        <h5 class="font-weight-bold">Android App</h5>    
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
-                    <div class="service-inner card hvr-grow">
-                        iOS App                        
+                <div class="col-md-3">
+                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/ios.jpg');">
+                        <h5 class="font-weight-bold">iOS App</h5>                    
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
-                    <div class="service-inner card hvr-grow">
-                        Lightweight Web App                    
+                <div class="col-md-3">
+                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/web-app.jpg');">
+                        <h5 class="font-weight-bold">Lightweight Web App</h5>                 
                     </div>
                 </div>
             </div>
         </div>
         <div class="container service-head mt-5">
-            <h2 class="subheading-text">For the Brand</h2>
+            <h2 class="subheading-text">For the <span class="red-color">B</span>rand</h2>
             <div data-aos="fade-up" class="row service-body">
-                <div class="col-md-3 col-6">
-                    <div class="service-inner card hvr-grow">
-                        Search Engine Optimization    
+                <div class="col-md-3">
+                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/seo.jpg');">
+                        <h5 class="font-weight-bold">SEO</h5> 
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
-                    <div class="service-inner card hvr-grow">
-                        Logo Design                        
+                <div class="col-md-3">
+                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/prototyping.jpg');">
+                        <h5 class="font-weight-bold">Prototyping</h5>                     
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
-                    <div class="service-inner card hvr-grow">
-                        Data Science                    
+                <div class="col-md-3">
+                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/uiux.jpg');">
+                        <h5 class="font-weight-bold">UI/UX</h5>                    
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/data-sci.jpg');">
+                        <h5 class="font-weight-bold">Data Science</h5>                    
                     </div>
                 </div>
             </div>
@@ -167,12 +200,41 @@
 
 </section>
 
+<section class="about full-height pt-5 mt-5">
+    <div class="me-bg-container">
+        <img src="./assets/img/me-bg.jpg" alt="test">
+    </div>
+    <div data-aos="fade-right" class="container">
+        <span class="heading-text">About</span>
+    </div>
+
+    <div data-lax-preset_large="lazy-200" data-lax-preset_small="lazy-300" class="container lax about-content">
+        <h3>Vikas <span class="red-color">Pandey</span>, Computer Engineer from Mumbai University.</h3>
+        <h4>I specialize in Web Development, App Development, UI/UX Development and Data Science to build and strengthen your brands online presence.</h4>
+        <h4>Get in Touch to Get Started.</h4>
+        <div class="social mt-5">
+            <a target="_blank" href="https://www.facebook.com/vikasxpandey"><i class="fab fa-2x fa-facebook"></i></a>
+            <a target="_blank" href="https://www.twitter.com/vikasxpandey"><i class="fab fa-2x fa-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/vikasxpandey"><i class="fab fa-2x fa-instagram"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/vikasxpandey"><i class="fab fa-2x fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.codepen.io/vikasxpandey"><i class="fab fa-2x fa-codepen"></i></a>
+            <a target="_blank" href="https://www.github.com/vikasxpandey"><i class="fab fa-2x fa-github"></i></a>
+            <a href="mailto:vikas.pandey792@gmail.com"><i class="fab fa-2x fa-google"></i></a>
+        </div>
+    </div>
+
+</section>
+
+<footer class="half-height mt-5">
+     
+</footer>
+
 
 <script src="./assets/js/jquery.min.js"></script>
 <script src="./assets/js/popper.min.js"></script>
 <script src="./assets/js/bootstrap.min.js"></script>
 <script src="./assets/js/aos.min.js"></script>
-<script src="./assets/js/rellax.min.js"></script>
+<script src="./assets/js/lax.min.js" ></script>
 <script src="./assets/js/main.js"></script>
 </body>
 </html>

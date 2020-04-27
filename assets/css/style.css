@@ -29,6 +29,28 @@
     min-height: 100vh;
 }
 
+.half-height {
+    min-height: 50vh;
+}
+
+.red-color {
+    color: red;
+}
+
+.btn-default-black {
+    color: #fff;
+    background: #000;
+}
+
+.btn-default-black:hover {
+    color: #fff;
+    background: #111;
+}
+
+.disp-block {
+    display: block;
+}
+
 /* HELPERS END */
 
 body {
@@ -40,7 +62,7 @@ body {
     background: linear-gradient(45deg , #000, transparent);
 }
 
-main {
+main{
     padding-top: 3rem;
     position: relative;
     height: 100vh;
@@ -96,17 +118,91 @@ main .hero-text span:nth-child(2){
     background: #000;
     min-height: 200px;
     width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid #f0f0f0;
+    border-bottom: 5px solid #f0f0f0;
     border-radius: 0;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
+    background-size: cover;
+    filter: grayscale(1);
+}
+
+.services .service-inner:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .services .service-inner:hover {
     border-bottom: 5px solid red;
+    filter: grayscale(0);
+}
+
+.services .service-inner h5 {
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
+}
+
+.services .service-inner:hover h5 {
+    font-size: 1.5rem;
+}
+
+.about {
+	position: relative;
+}
+
+.me-bg-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    overflow: hidden;
+    z-index: -10;
+}
+
+.me-bg-container img {
+	min-width: 100%;
+	min-height: 100%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    object-fit: cover;
+    
+}
+
+.me-bg-container:after {
+	content: '';
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.about .about-content {
+    color: #fff;
+}
+
+.about .social a {
+    color: #fff;
+    margin: 1rem;
+    display: inline-block;
+}
+
+
+footer {
+    background: #1e1e1e;
+    background: linear-gradient(180deg, #1e1e1e, transparent);
 }
 
 
@@ -121,4 +217,9 @@ main .hero-text span:nth-child(2){
     main .hero-text {
         font-size: 4rem;
     }
+
+    .services .service-inner:nth-child(3), .services .service-inner:nth-child(4) {
+        margin-top: 30px;
+    } 
+
 }

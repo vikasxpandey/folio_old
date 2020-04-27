@@ -12,8 +12,16 @@ $(function() {
          AOS.init();
      }
 
-    //  RELLAX
+    //  LAX
 
-    var rellax = new Rellax('.rellax');
-    
+    lax.setup({
+        breakpoints: { small: 0, large: 800 }
+    });
+
+	function updateLax() {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
+
+	window.requestAnimationFrame(updateLax)
 });
