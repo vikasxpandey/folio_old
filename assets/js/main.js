@@ -26,4 +26,17 @@ $(function() {
     // VIDEO
 
     $('#bg-video').get(0).play();
+
+    // CONTACT CLICKER
+
+    $('.contact-clicker').on('click', function() {
+        console.log('1');
+        Tawk_API.toggle();
+    });
+
+    // NAVBAR MENU HIDE
+
+    $("nav").find("li").on("click", "a", function () {
+        $('.navbar-collapse').collapse('hide');
+    });
 });

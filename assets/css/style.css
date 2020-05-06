@@ -12,6 +12,15 @@
     outline: none !important;
 }
 
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border: none;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 /* HELPERS */
 
 .heading-text {
@@ -37,6 +46,23 @@
     color: red;
 }
 
+a.red-color {
+    text-decoration: none;
+}
+
+a.red-color:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.white-color {
+    color: white;
+}
+
+.gray-color {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .btn-default-black {
     color: #fff;
     background: #000;
@@ -51,6 +77,10 @@
     display: block;
 }
 
+.contact-clicker {
+    cursor: pointer;
+}
+
 /* HELPERS END */
 
 body {
@@ -59,7 +89,7 @@ body {
 
 .main-navbar nav.navbar {
     background: #000;
-    background: linear-gradient(45deg , #000, transparent);
+    background: linear-gradient(45deg , #000 30%, transparent);
 }
 
 main{
@@ -199,12 +229,46 @@ main .hero-text span:nth-child(2){
     display: inline-block;
 }
 
+.contact .contact-hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact .contact-hero span {
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 900;
+    margin: 0 1rem;
+    display: inline-block;
+}
+
 
 footer {
     background: #000;
     background: linear-gradient(180deg, #000, transparent);
 }
 
+footer .footer-inner.list ul {
+    list-style: none;
+}
+
+footer .footer-inner.list li a {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+footer .footer-hero {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    color: white;
+}
+
+footer .footer-social a {
+    margin: 0 0.4rem;
+}
 
 /* MEDIA QUERIES */
 
@@ -221,5 +285,9 @@ footer {
     .services .service-inner:nth-child(3), .services .service-inner:nth-child(4) {
         margin-top: 30px;
     } 
+
+    .contact .contact-hero span {
+        font-size: 4rem;
+    }
 
 }
