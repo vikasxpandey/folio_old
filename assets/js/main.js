@@ -39,4 +39,8 @@ $(function() {
     $("nav").find("li").on("click", "a", function () {
         $('.navbar-collapse').collapse('hide');
     });
+
+    // DATE
+
+    $('.current-year').html(new Date().getFullYear());
 });

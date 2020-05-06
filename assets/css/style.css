@@ -63,6 +63,10 @@ a.red-color:hover {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.gray-color-solid {
+    color: #bbb;
+}
+
 .btn-default-black {
     color: #fff;
     background: #000;
