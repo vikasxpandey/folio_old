@@ -12,9 +12,8 @@
         </div>
     </div>
     <script>
-
+        name = prompt('Enter name')
         number = prompt('Enter the number of times you want sorry!')
-
         function appendHtml(el, str) {
         var div = document.createElement('div');
         div.innerHTML = str;
@@ -23,7 +22,7 @@
         }
         }
         
-        html = '<h1>Sorry, Divya</h1>'
+        html = `<h1>Sorry, ${name}</h1>`
 
         for(let i=1; i<=number; i++) {
             appendHtml(document.body, html)    
