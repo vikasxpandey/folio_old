@@ -1,320 +1,523 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166926978-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-166926978-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || []
+			function gtag() {
+				dataLayer.push(arguments)
+			}
+			gtag('js', new Date())
 
-      gtag('config', 'UA-166926978-1');
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vikas Pandey</title>
+			gtag('config', 'UA-166926978-1')
+		</script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/aos.min.css">
-    <link rel="stylesheet" href="./assets/css/hover.min.css">
-    <link rel="stylesheet" href="./assets/css/fa/all.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+		<meta name="author" content="Vikas Pandey" />
+		<meta name="robots" content="index, follow" />
+		<meta name="GOOGLEBOT" content="index, follow" />
+		<meta name="RATING" content="General" />
+		<title>Vikas Pandey</title>
+		<meta
+			name="description"
+			content="I specialize in Web Development, App Development, UI/UX Development and Data Science to build and strengthen your brand's online presence and create an elegant digital experience."
+		/>
+		<meta
+			name="keywords"
+			content="Vikas, Pandey, Web, Development, App, Android, iOS, Data Science, Freelancer, Build, Website, Developer"
+		/>
+		<meta property="og:title" content="Vikas Pandey" />
+		<meta
+			property="og:description"
+			content="I specialize in Web Development, App Development, UI/UX Development and Data Science to build and strengthen your brand's online presence and create an elegant digital experience."
+		/>
+		<meta
+			property="og:image"
+			content="https://vikasxpandey.github.io/folio/assets/img/me-bg.jpg"
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://vikasxpandey.github.io/folio/" />
 
-    <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/5ea6d78f69e9320caac7b74b/default';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
-    </script>
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./assets/css/aos.min.css" />
+		<link rel="stylesheet" href="./assets/css/hover.min.css" />
+		<link rel="stylesheet" href="./assets/css/fa/all.min.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
 
-</head>
-<body>
+		<script type="text/javascript">
+			var Tawk_API = Tawk_API || {},
+				Tawk_LoadStart = new Date()
+			;(function () {
+				var s1 = document.createElement('script'),
+					s0 = document.getElementsByTagName('script')[0]
+				s1.async = true
+				s1.src = 'https://embed.tawk.to/5ea6d78f69e9320caac7b74b/default'
+				s1.charset = 'UTF-8'
+				s1.setAttribute('crossorigin', '*')
+				s0.parentNode.insertBefore(s1, s0)
+			})()
+		</script>
+	</head>
+	<body>
+		<section class="main-navbar">
+			<nav class="navbar fixed-top navbar-expand-md navbar-dark">
+				<a class="navbar-brand font-weight-bold" href="#"
+					>Vikas <span class="red-color">Pandey</span></a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#main-nav-dropdown"
+					aria-controls="main-nav-dropdown"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-<section class="main-navbar">
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark">
-        <a class="navbar-brand font-weight-bold" href="#">Vikas <span class="red-color">Pandey</span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav-dropdown" aria-controls="main-nav-dropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="main-nav-dropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#sec-projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sec-services">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sec-about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sec-contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-      
-</section>
+				<div class="collapse navbar-collapse" id="main-nav-dropdown">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#sec-projects">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#sec-services">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#sec-about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#sec-contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</section>
 
-<main>
-    <div class="video-container">
-        <video id="bg-video" src="./assets/misc/video1.mp4" preload="auto" width="854px" height="480px" autoplay playsinline muted loop></video>
-    </div>
-    <div data-lax-preset="linger fadeOut" class="lax container">
-        <span class="hero-text font-weight-bold"><span data-aos="fade-up" data-aos-duration="3000">LET'S</span><span data-aos="fade-down">Create</span></span>
-    </div>
-</main>
+		<main>
+			<div class="video-container">
+				<video
+					id="bg-video"
+					src="./assets/misc/video1.mp4"
+					preload="auto"
+					width="854px"
+					height="480px"
+					autoplay
+					playsinline
+					muted
+					loop
+				></video>
+			</div>
+			<div data-lax-preset="linger fadeOut" class="lax container">
+				<span class="hero-text font-weight-bold"
+					><span data-aos="fade-up" data-aos-duration="3000">LET'S</span
+					><span data-aos="fade-down">Create</span></span
+				>
+			</div>
+		</main>
 
-<section id="sec-projects" class="projects pt-5">
-    <div data-aos="fade-right" class="container">
-        <span class="heading-text">Projects</span>
-    </div>
+		<section id="sec-projects" class="projects pt-5">
+			<div data-aos="fade-right" class="container">
+				<span class="heading-text">Projects</span>
+			</div>
 
-    <div data-aos="fade-up" id="project-carousel" class="carousel slide" data-ride="carousel">
+			<div
+				data-aos="fade-up"
+				id="project-carousel"
+				class="carousel slide"
+				data-ride="carousel"
+			>
+				<ul class="carousel-indicators">
+					<li
+						data-target="#project-carousel"
+						data-slide-to="0"
+						class="active"
+					></li>
+					<li data-target="#project-carousel" data-slide-to="1"></li>
+					<li data-target="#project-carousel" data-slide-to="2"></li>
+					<li data-target="#project-carousel" data-slide-to="3"></li>
+				</ul>
 
-        <ul class="carousel-indicators">
-          <li data-target="#project-carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#project-carousel" data-slide-to="1"></li>
-          <li data-target="#project-carousel" data-slide-to="2"></li>
-          <li data-target="#project-carousel" data-slide-to="3"></li>
-        </ul>
-        
-        <div class="carousel-inner">
-          <div class="carousel-item text-center active">
-            <div class="project-div container p-5">
-                <h2 class="font-weight-bold">Canvastones<span class="red-color">.com</span></h2>
-                <p>An E-commerce website based on php-Opencart framework.</p>
-                <p>This project was made as a Freelance project in three months from Prototyping to Deployment and Maintainance. It uses Opencart as the base framework which is written in PHP and follows the MVC architecture. Additionally MySQL for database and HTML - CSS - JavaScript Combination for its Front End.</p>
-                <a href="https://www.canvastones.com" target="_blank" class="btn btn-lg disp-block mt-3 btn-default-black">Check Out</a>
-            </div>
-          </div>
-          <div class="carousel-item text-center">
-            <div class="project-div container p-5">
-                <h2 class="font-weight-bold">Revolotech<span class="red-color">.com</span></h2>
-                <p>A multi-page dynamic website built from scratch.</p>
-                <p>This project was made while I was working as an Intern at Revolo Infotech. It uses PHP as the Server side language along with a MySQL database. While the Front End uses the HTML - CSS - JavaScript Combination.</p>
-                <a href="https://www.revolotech.com" target="_blank" class="btn btn-lg disp-block mt-3 btn-default-black">Check Out</a>
-            </div>
-          </div>
-          <div class="carousel-item text-center">
-            <div class="project-div container p-5">
-                <h2 class="font-weight-bold">Ignite.intuitioneers<span class="red-color">.com</span></h2>
-                <p>A social network and discussion forum for Developers.</p>
-                <p>This is a project I made to brush up my ReactJS and NodeJS skills. It uses ReactJS as client side Front End framework while NodeJS as Server side Back End language. Moreover, it uses MongoDB as its Database.</p>
-                <a href="https://www.github.com/vikasxpandey/ignite" target="_blank" class="btn btn-lg disp-block mt-3 btn-default-black">Check Out</a>
-            </div>
-          </div>
-          <div class="carousel-item text-center">
-            <div class="project-div container p-5">
-                <h2 class="font-weight-bold">More on Github<span class="red-color">.com</span></h2>
-                <p>Find more projects on GitHub.</p>
-                <p>Head over to my GitHub to explore more projects based on Data Science and Machine Learning.</p>
-                <a href="https://www.github.com/vikasxpandey" target="_blank" class="btn btn-lg disp-block mt-3 btn-default-black">See more</a>
-            </div>
-          </div>
-        </div>
-        
-        <a class="carousel-control-prev" href="#project-carousel" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#project-carousel" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-</section>
+				<div class="carousel-inner">
+					<div class="carousel-item text-center active">
+						<div class="project-div container p-5">
+							<h2 class="font-weight-bold">
+								Canvastones<span class="red-color">.com</span>
+							</h2>
+							<p>An E-commerce website based on php-Opencart framework.</p>
+							<p>
+								This project was made as a Freelance project in three months
+								from Prototyping to Deployment and Maintainance. It uses
+								Opencart as the base framework which is written in PHP and
+								follows the MVC architecture. Additionally MySQL for database
+								and HTML - CSS - JavaScript Combination for its Front End.
+							</p>
+							<a
+								href="https://www.canvastones.com"
+								target="_blank"
+								class="btn btn-lg disp-block mt-3 btn-default-black"
+								>Check Out</a
+							>
+						</div>
+					</div>
+					<div class="carousel-item text-center">
+						<div class="project-div container p-5">
+							<h2 class="font-weight-bold">
+								Revolotech<span class="red-color">.com</span>
+							</h2>
+							<p>A multi-page dynamic website built from scratch.</p>
+							<p>
+								This project was made while I was working as an Intern at Revolo
+								Infotech. It uses PHP as the Server side language along with a
+								MySQL database. While the Front End uses the HTML - CSS -
+								JavaScript Combination.
+							</p>
+							<a
+								href="https://www.revolotech.com"
+								target="_blank"
+								class="btn btn-lg disp-block mt-3 btn-default-black"
+								>Check Out</a
+							>
+						</div>
+					</div>
+					<div class="carousel-item text-center">
+						<div class="project-div container p-5">
+							<h2 class="font-weight-bold">
+								Ignite.intuitioneers<span class="red-color">.com</span>
+							</h2>
+							<p>A social network and discussion forum for Developers.</p>
+							<p>
+								This is a project I made to brush up my ReactJS and NodeJS
+								skills. It uses ReactJS as client side Front End framework while
+								NodeJS as Server side Back End language. Moreover, it uses
+								MongoDB as its Database.
+							</p>
+							<a
+								href="https://www.github.com/vikasxpandey/ignite"
+								target="_blank"
+								class="btn btn-lg disp-block mt-3 btn-default-black"
+								>Check Out</a
+							>
+						</div>
+					</div>
+					<div class="carousel-item text-center">
+						<div class="project-div container p-5">
+							<h2 class="font-weight-bold">
+								More on Github<span class="red-color">.com</span>
+							</h2>
+							<p>Find more projects on GitHub.</p>
+							<p>
+								Head over to my GitHub to explore more projects based on Data
+								Science and Machine Learning.
+							</p>
+							<a
+								href="https://www.github.com/vikasxpandey"
+								target="_blank"
+								class="btn btn-lg disp-block mt-3 btn-default-black"
+								>See more</a
+							>
+						</div>
+					</div>
+				</div>
 
-<section id="sec-services" class="services full-height mt-5 pt-5">
-    <div data-aos="fade-right" class="container">
-        <span class="heading-text">Services</span>
-    </div>
+				<a
+					class="carousel-control-prev"
+					href="#project-carousel"
+					data-slide="prev"
+				>
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a
+					class="carousel-control-next"
+					href="#project-carousel"
+					data-slide="next"
+				>
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+		</section>
 
-    <div class="container">
-        <div class="container service-head mt-5">
-            <h2 class="subheading-text">On the <span class="red-color">W</span>eb</h2>
-            <div data-aos="fade-up" class="row service-body">
-                <div class="col-md-3">
-                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/single-page.jpg');">
-                        <h5 class="font-weight-bold">Single Page Website</h5>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/portfolio.jpg');"> 
-                        <h5 class="font-weight-bold">Portfolio</h5>            
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/ecommerce.jpg');">
-                        <h5 class="font-weight-bold">E Commerce</h5>           
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/wordpress.jpg');">
-                        <h5 class="font-weight-bold">Wordpress</h5>                
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container service-head mt-5">
-            <h2 class="subheading-text">In the <span class="red-color">P</span>hone</h2>
-            <div data-aos="fade-up" class="row service-body">
-                <div class="col-md-3">
-                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/android.jpg');">
-                        <h5 class="font-weight-bold">Android App</h5>    
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/ios.jpg');">
-                        <h5 class="font-weight-bold">iOS App</h5>                    
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/web-app.jpg');">
-                        <h5 class="font-weight-bold">Lightweight Web App</h5>                 
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container service-head mt-5">
-            <h2 class="subheading-text">For the <span class="red-color">B</span>rand</h2>
-            <div data-aos="fade-up" class="row service-body">
-                <div class="col-md-3">
-                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/seo.jpg');">
-                        <h5 class="font-weight-bold">SEO</h5> 
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/prototyping.jpg');">
-                        <h5 class="font-weight-bold">Prototyping</h5>                     
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/uiux.jpg');">
-                        <h5 class="font-weight-bold">UI/UX</h5>                    
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="service-inner card hvr-grow" style="background-image: url('./assets/img/data-sci.jpg');">
-                        <h5 class="font-weight-bold">Data Science</h5>                    
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		<section id="sec-services" class="services full-height mt-5 pt-5">
+			<div data-aos="fade-right" class="container">
+				<span class="heading-text">Services</span>
+			</div>
 
-</section>
+			<div class="container">
+				<div class="container service-head mt-5">
+					<h2 class="subheading-text">
+						On the <span class="red-color">W</span>eb
+					</h2>
+					<div data-aos="fade-up" class="row service-body">
+						<div class="col-md-3">
+							<div
+								class="service-inner card hvr-grow"
+								style="background-image: url('./assets/img/single-page.jpg');"
+							>
+								<h5 class="font-weight-bold">Single Page Website</h5>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div
+								class="service-inner card hvr-grow"
+								style="background-image: url('./assets/img/portfolio.jpg');"
+							>
+								<h5 class="font-weight-bold">Portfolio</h5>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div
+								class="service-inner card hvr-grow"
+								style="background-image: url('./assets/img/ecommerce.jpg');"
+							>
+								<h5 class="font-weight-bold">E Commerce</h5>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div
+								class="service-inner card hvr-grow"
+								style="background-image: url('./assets/img/wordpress.jpg');"
+							>
+								<h5 class="font-weight-bold">Wordpress</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container service-head mt-5">
+					<h2 class="subheading-text">
+						In the <span class="red-color">P</span>hone
+					</h2>
+					<div data-aos="fade-up" class="row service-body">
+						<div class="col-md-3">
+							<div
+								class="service-inner card hvr-grow"
+								style="background-image: url('./assets/img/android.jpg');"
+							>
+								<h5 class="font-weight-bold">Android App</h5>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div
+								class="service-inner card hvr-grow"
+								style="background-image: url('./assets/img/ios.jpg');"
+							>
+								<h5 class="font-weight-bold">iOS App</h5>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div
+								class="service-inner card hvr-grow"
+								style="background-image: url('./assets/img/web-app.jpg');"
+							>
+								<h5 class="font-weight-bold">Lightweight Web App</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container service-head mt-5">
+					<h2 class="subheading-text">
+						For the <span class="red-color">B</span>rand
+					</h2>
+					<div data-aos="fade-up" class="row service-body">
+						<div class="col-md-3">
+							<div
+								class="service-inner card hvr-grow"
+								style="background-image: url('./assets/img/seo.jpg');"
+							>
+								<h5 class="font-weight-bold">SEO</h5>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div
+								class="service-inner card hvr-grow"
+								style="background-image: url('./assets/img/prototyping.jpg');"
+							>
+								<h5 class="font-weight-bold">Prototyping</h5>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div
+								class="service-inner card hvr-grow"
+								style="background-image: url('./assets/img/uiux.jpg');"
+							>
+								<h5 class="font-weight-bold">UI/UX</h5>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div
+								class="service-inner card hvr-grow"
+								style="background-image: url('./assets/img/data-sci.jpg');"
+							>
+								<h5 class="font-weight-bold">Data Science</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<section id="sec-about" class="about full-height pt-5 mt-5">
-    <div class="me-bg-container">
-        <img src="./assets/img/me-bg.jpg" alt="test">
-    </div>
-    <div data-aos="fade-right" class="container">
-        <span class="heading-text">About</span>
-    </div>
+		<section id="sec-about" class="about full-height pt-5 mt-5">
+			<div class="me-bg-container">
+				<img src="./assets/img/me-bg.jpg" alt="test" />
+			</div>
+			<div data-aos="fade-right" class="container">
+				<span class="heading-text">About</span>
+			</div>
 
-    <div data-lax-preset="lazy-200" class="container lax about-content">
-        <h3>Vikas <span class="red-color">Pandey</span>, Computer Engineer from Mumbai University.</h3>
-        <h4 class="gray-color-solid">I specialize in Web Development, App Development, UI/UX Development and Data Science to build and strengthen your brand's online presence and create an elegant digital experience.</h4>
-        <h4>Get in touch to <span class="red-color contact-clicker">Get Started.</span></h4>
-        <div class="social mt-5">
-            <a target="_blank" href="https://www.facebook.com/vikasxpandey"><i class="fab fa-2x fa-facebook"></i></a>
-            <a target="_blank" href="https://www.twitter.com/vikasxpandey"><i class="fab fa-2x fa-twitter"></i></a>
-            <a target="_blank" href="https://www.instagram.com/vikasxpandey"><i class="fab fa-2x fa-instagram"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/vikasxpandey"><i class="fab fa-2x fa-linkedin"></i></a>
-            <a target="_blank" href="https://www.codepen.io/vikasxpandey"><i class="fab fa-2x fa-codepen"></i></a>
-            <a target="_blank" href="https://www.github.com/vikasxpandey"><i class="fab fa-2x fa-github"></i></a>   
-        </div>
-    </div>
+			<div data-lax-preset="lazy-200" class="container lax about-content">
+				<h3>
+					Vikas <span class="red-color">Pandey</span>, Computer Engineer from
+					Mumbai University.
+				</h3>
+				<h4 class="gray-color-solid">
+					I specialize in Web Development, App Development, UI/UX Development
+					and Data Science to build and strengthen your brand's online presence
+					and create an elegant digital experience.
+				</h4>
+				<h4>
+					Get in touch to
+					<span class="red-color contact-clicker">Get Started.</span>
+				</h4>
+				<div class="social mt-5">
+					<a target="_blank" href="https://www.facebook.com/vikasxpandey"
+						><i class="fab fa-2x fa-facebook"></i
+					></a>
+					<a target="_blank" href="https://www.twitter.com/vikasxpandey"
+						><i class="fab fa-2x fa-twitter"></i
+					></a>
+					<a target="_blank" href="https://www.instagram.com/vikasxpandey"
+						><i class="fab fa-2x fa-instagram"></i
+					></a>
+					<a target="_blank" href="https://www.linkedin.com/in/vikasxpandey"
+						><i class="fab fa-2x fa-linkedin"></i
+					></a>
+					<a target="_blank" href="https://www.codepen.io/vikasxpandey"
+						><i class="fab fa-2x fa-codepen"></i
+					></a>
+					<a target="_blank" href="https://www.github.com/vikasxpandey"
+						><i class="fab fa-2x fa-github"></i
+					></a>
+				</div>
+			</div>
+		</section>
 
-</section>
+		<section id="sec-contact" class="contact pt-5 mt-5">
+			<div data-aos="fade-right" class="container">
+				<span class="heading-text">Contact</span>
+			</div>
 
-<section id="sec-contact" class="contact pt-5 mt-5">
-    <div data-aos="fade-right" class="container">
-        <span class="heading-text">Contact</span>
-    </div>
+			<div class="contact-hero mt-3">
+				<div class="say">
+					<span data-aos="fade-up" data-aos-duration="500">S</span>
+					<span data-aos="fade-up" data-aos-duration="1000">A</span>
+					<span data-aos="fade-up" data-aos-duration="1500">Y</span>
+				</div>
+				<div class="hello">
+					<span data-aos="fade-up" data-aos-duration="500">H</span>
+					<span data-aos="fade-up" data-aos-duration="1000">E</span>
+					<span data-aos="fade-up" data-aos-duration="1500">L</span>
+					<span data-aos="fade-up" data-aos-duration="2000">L</span>
+					<span data-aos="fade-up" data-aos-duration="2000">O</span>
+				</div>
+			</div>
 
-    <div class="contact-hero mt-3">
-        <div class="say">
-            <span data-aos="fade-up" data-aos-duration="500">S</span>
-            <span data-aos="fade-up" data-aos-duration="1000">A</span>
-            <span data-aos="fade-up" data-aos-duration="1500">Y</span>
-        </div>
-        <div class="hello">
-            <span data-aos="fade-up" data-aos-duration="500">H</span>
-            <span data-aos="fade-up" data-aos-duration="1000">E</span>
-            <span data-aos="fade-up" data-aos-duration="1500">L</span>
-            <span data-aos="fade-up" data-aos-duration="2000">L</span>
-            <span data-aos="fade-up" data-aos-duration="2000">O</span>
-        </div>
-    </div>
+			<div class="container pt-5">
+				<div class="row">
+					<div class="col-md-4 mt-3 text-center">
+						<h5 data-aos-offset="-100" data-aos="fade-down" class="white-color">
+							<i class="fa fa-envelope-open-text"></i>&nbsp;&nbsp;&nbsp;Send an
+							Email
+							<a class="red-color" href="mailto:vikasxpandey@gmail.com"
+								>HERE.</a
+							>
+						</h5>
+					</div>
+					<div class="col-md-4 mt-3 text-center">
+						<h5 data-aos-offset="-100" data-aos="fade-down" class="white-color">
+							<i class="fa fa-comment-alt"></i>&nbsp;&nbsp;&nbsp;Send a Text
+							<span class="red-color contact-clicker">HERE.</span>
+						</h5>
+					</div>
+					<div class="col-md-4 mt-3 text-center">
+						<h5 data-aos-offset="-100" data-aos="fade-down" class="white-color">
+							<i class="fa fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;Give a Call
+							<a class="red-color" href="tel:+917774962129">HERE.</a>
+						</h5>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <div class="container pt-5">
-        <div class="row">
-            <div class="col-md-4 mt-3 text-center">
-                <h5 data-aos-offset="-100" data-aos="fade-down" class="white-color"><i class="fa fa-envelope-open-text"></i>&nbsp;&nbsp;&nbsp;Send an Email <a class="red-color" href="mailto:vikasxpandey@gmail.com">HERE.</a></h5>
-            </div>
-            <div class="col-md-4 mt-3 text-center">
-                <h5 data-aos-offset="-100" data-aos="fade-down" class="white-color"><i class="fa fa-comment-alt"></i>&nbsp;&nbsp;&nbsp;Send a Text <span class=" red-color contact-clicker">HERE.</span></h5>
-            </div>
-            <div class="col-md-4 mt-3 text-center">
-                <h5 data-aos-offset="-100" data-aos="fade-down" class="white-color"><i class="fa fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;Give a Call <a class="red-color" href="tel:+917774962129">HERE.</a></h5>
-            </div>
-        </div>
-    </div>
+		<footer class="mt-5">
+			<div class="container border-top pt-5 pb-5">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="footer-inner">
+							<h2>
+								<span class="white-color">Vikas </span
+								><span class="red-color">Pandey</span>
+							</h2>
+							<div class="footer-social pb-3">
+								<a target="_blank" href="https://www.facebook.com/vikasxpandey"
+									><i class="fab white-color fa-facebook"></i
+								></a>
+								<a target="_blank" href="https://www.twitter.com/vikasxpandey"
+									><i class="fab white-color fa-twitter"></i
+								></a>
+								<a target="_blank" href="https://www.instagram.com/vikasxpandey"
+									><i class="fab white-color fa-instagram"></i
+								></a>
+								<a
+									target="_blank"
+									href="https://www.linkedin.com/in/vikasxpandey"
+									><i class="fab white-color fa-linkedin"></i
+								></a>
+								<a target="_blank" href="https://www.codepen.io/vikasxpandey"
+									><i class="fab white-color fa-codepen"></i
+								></a>
+								<a target="_blank" href="https://www.github.com/vikasxpandey"
+									><i class="fab white-color fa-github"></i
+								></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="footer-inner list">
+							<ul>
+								<h4 class="gray-color font-weight-bold">EXPLORE</h4>
+								<li><a href="#sec-projects">Projects</a></li>
+								<li><a href="#sec-services">Services</a></li>
+								<li><a href="#sec-about">About</a></li>
+								<li><a href="#sec-contact">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="footer-inner">
+							<div class="footer-hero contact-clicker">LET'S TALK.</div>
+							<div class="gray-color">ABOUT YOUR PROJECT</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom-bar">
+				<span class="gray-color font-weight-bold text-center disp-block mb-3"
+					>Copyright &copy; <span class="current-year"></span>, Vikas
+					Pandey</span
+				>
+			</div>
+		</footer>
 
-</section>
-
-<footer class="mt-5">
-     <div class="container border-top pt-5 pb-5">
-         <div class="row">
-             <div class="col-md-3">
-                 <div class="footer-inner">
-                     <h2> <span class="white-color">Vikas </span><span class="red-color">Pandey</span> </h2>
-                    <div class="footer-social pb-3">
-                        <a target="_blank" href="https://www.facebook.com/vikasxpandey"><i class="fab white-color fa-facebook"></i></a>
-                        <a target="_blank" href="https://www.twitter.com/vikasxpandey"><i class="fab white-color fa-twitter"></i></a>
-                        <a target="_blank" href="https://www.instagram.com/vikasxpandey"><i class="fab white-color fa-instagram"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/vikasxpandey"><i class="fab white-color fa-linkedin"></i></a>
-                        <a target="_blank" href="https://www.codepen.io/vikasxpandey"><i class="fab white-color fa-codepen"></i></a>
-                        <a target="_blank" href="https://www.github.com/vikasxpandey"><i class="fab white-color fa-github"></i></a>
-                    </div>
-                 </div>
-             </div>
-             <div class="col-md-3">
-                <div class="footer-inner list">
-                    <ul>
-                        <h4 class="gray-color font-weight-bold">EXPLORE</h4>
-                        <li><a href="#sec-projects">Projects</a></li>
-                        <li><a href="#sec-services">Services</a></li>
-                        <li><a href="#sec-about">About</a></li>
-                        <li><a href="#sec-contact">Contact</a></li>
-                    </ul>
-                </div>
-             </div>
-             <div class="col-md-6">
-                <div class="footer-inner">
-                    <div class="footer-hero contact-clicker">LET'S TALK.</div>
-                    <div class="gray-color">ABOUT YOUR PROJECT</div>
-                </div>
-             </div>
-         </div>
-     </div>
-     <div class="footer-bottom-bar">
-         <span class="gray-color font-weight-bold text-center disp-block mb-3">Copyright &copy; <span class="current-year"></span>, Vikas Pandey</span>
-     </div>
-</footer>
-
-
-<script src="./assets/js/jquery.min.js"></script>
-<script src="./assets/js/popper.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
-<script src="./assets/js/aos.min.js"></script>
-<script src="./assets/js/lax.min.js" ></script>
-<script src="./assets/js/main.js"></script>
-</body>
+		<script src="./assets/js/jquery.min.js"></script>
+		<script src="./assets/js/popper.min.js"></script>
+		<script src="./assets/js/bootstrap.min.js"></script>
+		<script src="./assets/js/aos.min.js"></script>
+		<script src="./assets/js/lax.min.js"></script>
+		<script src="./assets/js/main.js"></script>
+	</body>
 </html>
